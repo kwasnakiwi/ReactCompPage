@@ -10,9 +10,9 @@ function Uslugi() {
         <div className="web-top4">
           <img className="img1" src={uslugiimg2}/>
           <div className="web-top-text4">
-            <h1 className="title4">Nasza Oferta Usług Webowych: Porównanie Planów dla Stron, Sklepów i Rozwiązań Customowych</h1>
+            <h1 className="title4">Od Twoich potrzeb po Nasze rozwiązania – Odkryj, jak możemy wspierać Twój rozwój i osiągnąć sukces.</h1>
             <p className="under-title4">
-              Znajdź najlepszy plan dla swojej witryny internetowej dzięki naszej ofercie dostosowanej do różnorodnych potrzeb. Oferujemy usługi projektowania stron firmowych, tworzenie sklepów internetowych oraz realizację indywidualnych projektów.
+            Dostosowujemy nasze usługi do Twoich indywidualnych potrzeb, aby maksymalnie zaspokoić oczekiwania Twojego biznesu. Od projektowania nowoczesnych stron internetowych, które są estetyczne i responsywne, przez tworzenie intuicyjnych e-sklepów, które ułatwiają zakupy Twoim klientom, aż po realizację złożonych rozwiązań dostosowanych do specyfiki Twojej działalności — jesteśmy tu, aby wspierać Twój sukces w sieci.
             </p>
             <div className="uslugi-imgs">
                 <img className="img1-som" src={uslugiimg2}/>

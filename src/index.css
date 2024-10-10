@@ -1,4 +1,7 @@
-
+.footer a{
+  text-decoration: none;
+  color: black;
+}
 @keyframes fadeIn {
   from{
       scale: .8;
@@ -79,6 +82,7 @@ body{
 /* navbar */
 .content{
   margin-top: 100px;
+
 }
 .logo{
   margin-left: 40px;
@@ -100,17 +104,18 @@ body{
   z-index: 1000; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin-right: 30px;
+
 }
 
 /* Styl ul */
-ul {
+.navbar ul {
   list-style-type: none; 
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
+  height: 100px;
 }
 
 /* Styl dla przycisków nawigacyjnych */
@@ -134,7 +139,7 @@ ul {
 /* Styl dla przycisku kontaktowego */
 .navBtnRed {
   background-color: red;
-  padding: 22.5px 30px;
+  padding: 17px 24px;
   border-radius: 25px;
 }
 
@@ -495,6 +500,7 @@ ul {
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
+  align-items: center;
 }
 .image-box{
   text-align: center;

@@ -51,7 +51,7 @@ function Projects() {
 				<hr className='web-line' />
 				<div className="projects">
 					<div className="image-container">
-						<img className="fadeIn" src={projectimg3}/>
+						<a href='https://unomomentopizzeria.netlify.app'><img className="fadeIn" src={projectimg3}/></a>
 						<div className="text-overlay">
 							<h3>Pizzeria Uno Momento</h3>
 							<hr className="text-overlay-line"/>

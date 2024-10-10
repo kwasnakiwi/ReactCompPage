@@ -1,4 +1,5 @@
 import downlogo from './assets/images/Rectangle 42.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return(
@@ -14,10 +15,10 @@ function Footer() {
             <div className="footer-texts">
                 <div className="footer-text">
                     <h3 className="footer-title">NASZE USŁUGI</h3>
-                    <p className="footer-paragraph">Strona Główna</p>
-                    <p className="footer-paragraph">Projekty</p>
-                    <p className="footer-paragraph">Cennik</p>
-                    <p className="footer-paragraph">Kontakt</p>
+                    <Link to='/'><p className="footer-paragraph">Strona Główna</p></Link>
+                    <Link to='/projects'><p className="footer-paragraph">Projekty</p></Link>
+                    <Link to='/uslugi'><p className="footer-paragraph">Usługi</p></Link>
+                    <Link to='/contact'><p className="footer-paragraph">Kontakt</p></Link>
                 </div>
                 <div className="footer-text">
                     <h3 className="footer-title">NW JAK OPISAĆ</h3>

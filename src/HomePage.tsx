@@ -7,11 +7,12 @@ import project5 from './assets/images/productivity-icon 1.png';
 import project6 from './assets/images/cyber-security-icon 1.png';
 import projectimg1 from './assets/images/Zrzut ekranu 2024-08-10 115841 (1).png';
 import projectimg2 from './assets/images/Zrzut ekranu 2024-08-10 120008.png';
-import projectimg3 from './assets/images/Zrzut ekranu 2024-08-10 120158.png';
+import projectimg3 from './assets/images/pizzeria.png';
 import projectimg4 from './assets/images/project4.png';
 import szymon from './assets/images/Szymon.jpeg';
 import pawel from './assets/images/Pawel.jpeg';
 import natalia from './assets/images/Natalia.jpeg';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
     return<>
@@ -31,7 +32,7 @@ function HomePage() {
             ale także funkcjonalna i zoptymalizowana pod kątem SEO.
           </p>
           <div className="button1">
-            <a className="projects-button" href="">Projekty </a>
+            <Link className="projects-button" to='/projects'>Projekty</Link>
           </div>
         </div>
           <img className="first-image" src={image1}/>
@@ -127,7 +128,7 @@ function HomePage() {
           </h3>
         </div>
         <div className="image-n-title">
-          <img className="projects-image fadeIn" src={projectimg2}/>
+          <a href='https://baliesauny.com'><img className="projects-image fadeIn" src={projectimg2}/></a>
           <h3 className="projects-under-title">
             Strona X
           </h3>
@@ -138,7 +139,7 @@ function HomePage() {
           <a className="button2" href="">Zobacz wszystkie projekty <img src=""/></a>
         </div>
         <div className="image-n-title1 image-n-title2">
-          <img className="projects-image fadeIn" src={projectimg3}/>
+        <a href='https://unomomentopizzeria.netlify.app'><img className="projects-image fadeIn" src={projectimg3}/></a>
           <h3 className="projects-under-title">
             Strona X
           </h3>
