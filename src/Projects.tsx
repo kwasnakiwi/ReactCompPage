@@ -51,20 +51,20 @@ function Projects() {
 				<hr className='web-line' />
 				<div className="projects">
 					<div className="image-container">
-						<a href='https://unomomentopizzeria.netlify.app'><img className="fadeIn" src={projectimg3}/></a>
-						<div className="text-overlay">
+						<img className="fadeIn" src={projectimg3}/>
+						<a target='_blank' href="https://unomomentopizzeria.netlify.app"><div className="text-overlay">
 							<h3>Pizzeria Uno Momento</h3>
 							<hr className="text-overlay-line"/>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum aperiam natus magnam cumque, quas iusto sint quibusdam laudantium ipsum voluptatum deserunt fugit pariatur doloremque aut porro dolor. Aut, quia.</p>
-						</div>
+						</div></a>
 					</div>
 					<div className="image-container">
 						<img className="fadeIn" src={projectimg2}/>
-						<div className="text-overlay">
+						<a target='_blank' href='https://baliesauny.com'><div className="text-overlay">
 							<h3>Sklep Balie i Sauny</h3>
 							<hr className="text-overlay-line"/>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum aperiam natus magnam cumque, quas iusto sint quibusdam laudantium ipsum voluptatum deserunt fugit pariatur doloremque aut porro dolor. Aut, quia.</p>
-						</div>
+						</div></a>
 					</div>
 					<div className="image-container">
 						<img className="fadeIn" src={projectimg1}/>

@@ -237,7 +237,7 @@ body{
   text-align: center;
   font-weight: 400;
   animation: slideInLeft 1s;
-  margin-top: 160px;
+  margin-top: 100px;
 }
 .under-title{
   font-family: Josefin Sans;
@@ -255,7 +255,6 @@ body{
   display: flex;
 }
 .first-image{
-  margin-top: 100px;
   max-height: 731px;
 }
 .projects-button{
@@ -637,7 +636,7 @@ outline: none;
 /*projects*/
 .title3{
   font-family: Roboto Slab;
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 400;
   text-align: center;
   animation: slideInLeft 1s;
@@ -658,7 +657,7 @@ outline: none;
 }
 .under-title3{
   font-family: Josefin Sans;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 300;
   text-align: left;
   animation: slideInLeft 1s;
@@ -682,12 +681,12 @@ outline: none;
   align-items: center;
 }
 .text-overlay{
-  margin: 15% 15%;
+  padding: 15% 15%;
   height: 95%;
 }
 .text-overlay-line{
   max-width: 800px;
-  color: black;
+  color: white;
   margin-top: 20px;
 
 }
@@ -1011,7 +1010,7 @@ opacity: 1; /* Pojawienie się napisu na zdjęciu */
 }
 @media (max-width: 1280px) {
   .text-overlay{
-    margin-top: 20px;
+    padding-top: 20px;
   }
   .image-container{
     width: 500px;
