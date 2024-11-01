@@ -1,4 +1,4 @@
-import downlogo from './assets/images/Rectangle 42.png';
+import downlogo from './assets/images/Logo czarne.png';
 import { Link } from 'react-router-dom';
 
 function Footer() {

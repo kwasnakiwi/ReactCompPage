@@ -139,7 +139,7 @@ function HomePage() {
           <a className="button2" href="">Zobacz wszystkie projekty <img src=""/></a>
         </div>
         <div className="image-n-title1 image-n-title2">
-        <a target='_blank' href='https://unomomentopizzeria.netlify.app'><img className="projects-image fadeIn" src={projectimg3}/></a>
+        <a target='_blank' href='https://pizzeriaunomomento.pl'><img className="projects-image fadeIn" src={projectimg3}/></a>
           <h3 className="projects-under-title">
             Pizzeria Uno Momento
           </h3>

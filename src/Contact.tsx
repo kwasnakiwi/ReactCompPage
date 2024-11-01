@@ -25,11 +25,7 @@ function Contact() {
         </div>
         <img className='webtop2image' src={image2}/>
       </div>
-          <div className="app-icons">
-            <img src={linkedin}/>
-            <img src={ig}/>
-            <img src={git}/>
-          </div>
+          
     </section>
     
 

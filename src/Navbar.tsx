@@ -1,4 +1,4 @@
-import logo from './assets/images/Rectangle 21.png';
+import logo from './assets/images/Logo białe.png';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
