@@ -7,9 +7,6 @@ import topimage3 from './assets/images/Wizytowka 2.png';
 import topimage4 from './assets/images/Sklep 2.png';
 import ulotka1 from './assets/images/Wariant 3 (C).png';
 import ulotka2 from './assets/images/Rewers (3).png';
-import app1 from './assets/images/linkedin-square-icon 1.png';
-import app2 from './assets/images/black-instagram-icon 1.png';
-import app3 from './assets/images/github-icon 1.png';
 
 function Projects() {
     return<>
@@ -41,11 +38,7 @@ function Projects() {
 				<h5 className="mini-text">E-commers</h5>
 				<h5 className="mini-text text3" id="mini-text1">Customowe</h5>
 			</div>
-			<div className='apps'>
-				<img src={app1}/>
-				<img src={app2}/>
-				<img src={app3}/>
-			</div>
+
 			<section className="projects-section">
 				<h2 className='websites-title'>Strony Internetowe</h2>
 				<hr className='web-line' />
