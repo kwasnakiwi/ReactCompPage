@@ -1,9 +1,7 @@
 import image2 from './assets/images/[removal.ai]_58dc3d9d-ad98-42d0-8927-2e79c5695f3d_ai-generated-8772394_1920 1.png';
 import malpa from './assets/images/attherate-icon 1.png';
 import phone from './assets/images/phone-call-icon 1.png';
-import linkedin from './assets/images/Linkedin 1.png';
-import ig from './assets/images/ig 1.png';
-import git from './assets/images/git 1.png';
+
 
 function Contact() {
     return <section className="center-container">
