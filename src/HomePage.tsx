@@ -8,7 +8,7 @@ import project6 from './assets/images/cyber-security-icon 1.png';
 import projectimg1 from './assets/images/Zrzut ekranu 2024-08-10 115841 (1).png';
 import projectimg2 from './assets/images/balie.png';
 import projectimg3 from './assets/images/unomomento.png';
-import projectimg4 from './assets/images/project4.png';
+import projectimg4 from './assets/images/Fryzjer.png';
 import szymon from './assets/images/Szymon.jpeg';
 import pawel from './assets/images/Pawel.jpeg';
 import natalia from './assets/images/Natalia.jpeg';
@@ -147,7 +147,7 @@ function HomePage() {
         <div className="image-n-title1 image-n-title2">
           <img className="projects-image fadeIn" src={projectimg4}/>
           <h3 className="projects-under-title">
-            Strona X
+            Strona Fryzjer (do zmiany nwm jak nazwać)
           </h3>
         </div>
       </div>

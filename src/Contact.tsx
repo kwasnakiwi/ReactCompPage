@@ -8,7 +8,7 @@ function Contact() {
       <div className="web-top2">
         <div className="web-top-text2">
           <h1 className="title2">Twój projekt w dobrych rękach - Napisz do Nas</h1>
-          <p className="under-title2">Chcesz stworzyć wyjątkową stronę interneNapisz do Nastową dla swojej firmy? Skontaktuj się z nami! Wypełnij formularz, zadzwoń lub napisz – odpowiemy szybko i zaproponujemy najlepsze rozwiązania dostosowane do Twoich potrzeb.</p>
+          <p className="under-title2">Chcesz stworzyć wyjątkową stronę internetową dla swojej firmy? Skontaktuj się z nami! Zadzwoń lub napisz – odpowiemy szybko i zaproponujemy najlepsze rozwiązania dostosowane do Twoich potrzeb.</p>
           <img className='webtop2image-som' src={image2}/>
           <div className="icons-box">
             <div className='image-box'>
