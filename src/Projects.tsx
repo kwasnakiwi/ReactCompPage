@@ -1,6 +1,6 @@
 import projectimg1 from './assets/images/Zrzut ekranu 2024-08-10 115841 (1).png';
-import projectimg2 from './assets/images/Zrzut ekranu 2024-08-10 120008.png';
-import projectimg3 from './assets/images/Zrzut ekranu 2024-08-10 120158.png';
+import projectimg2 from './assets/images/balie.png';
+import projectimg3 from './assets/images/unomomento.png';
 import topimage1 from './assets/images/Formum 2.png';
 import topimage2 from './assets/images/5 1.png';
 import topimage3 from './assets/images/Wizytowka 2.png';
@@ -45,7 +45,7 @@ function Projects() {
 				<div className="projects">
 					<div className="image-container">
 						<img className="fadeIn" src={projectimg3}/>
-						<a target='_blank' href="https://unomomentopizzeria.netlify.app"><div className="text-overlay">
+						<a target='_blank' href="https://pizzeriaunomomento.pl"><div className="text-overlay">
 							<h3>Pizzeria Uno Momento</h3>
 							<hr className="text-overlay-line"/>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum aperiam natus magnam cumque, quas iusto sint quibusdam laudantium ipsum voluptatum deserunt fugit pariatur doloremque aut porro dolor. Aut, quia.</p>

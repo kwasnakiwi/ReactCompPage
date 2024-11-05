@@ -1312,12 +1312,8 @@ opacity: 1; /* Pojawienie się napisu na zdjęciu */
   }
 }
 @media (max-width: 450px) {
-  .image-container{
-    width: 250px;
-  }
-  .text-overlay h3{
-    font-size: 20px;
-    padding: 10%;
+  .projects{
+    margin: 0 2%;
   }
 }
 @media (max-width: 420px) {
@@ -1362,5 +1358,12 @@ opacity: 1; /* Pojawienie się napisu na zdjęciu */
   }
   .ulotki img{
     width: 220px;
+  }
+  .image-container{
+    width: 250px;
+  }
+  .text-overlay h3{
+    font-size: 20px;
+    padding: 10%;
   }
 }
